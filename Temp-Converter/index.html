@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1>Temperature Converter</h1>
+    <div class="container">
+            <div class="input-box">
+                <h6>Celsius</h6>
+                    <div class="sub">
+                    <input type="number" id="celsius" /><span id="symbol">°C</span>
+                    </div>
+            </div>
+            <div class="input-box">
+                <h6>Fahrenheit</h6>
+                <div class="sub">
+                    <input type="number" id="fahrenheit" /><span id="symbol">°F</span>
+                </div>
+            </div>
+            <div class="input-box">
+                <h6>Kelvin</h6>
+                <div class="sub">
+                    <input type="number" id="kelvin" /><span id="symbol">K</span>
+                </div>
+            </div>
+            <button id="reset" onclick="reset()" title="Try removing what you have entered :)">Reset</button>
+
+    </div>
+</body>
+</html>
